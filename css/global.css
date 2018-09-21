@@ -1,0 +1,166 @@
+/*
+ * @Author: 松鼠岭 
+ * @Date: 2017-10-25 14:42:04 
+ * @Last Modified by: 松鼠岭
+ * @Last Modified time: 2018-04-03 11:53:32
+ */
+
+@charset "utf-8";
+/* CSS Document */
+
+/*
+
+全局css样式表
+头尾css样式表
+全局、多页、局部多处引用样式表
+更改此样式表会造成全部或多个页面样式变动
+更改前请慎重
+作者：松鼠岭
+
+*/
+
+/* 全局css - 牵一发而动全身 */
+
+body {
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.center {
+    max-width: 750px;
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.bg_f5f5f5{
+    background-color: #f5f5f5;
+}
+
+/* 全局css - 牵一发而动全身 - 结束 */
+
+/* 全局css - 更改前慎重 */
+
+/* 顶部 - 开始 */
+
+.header{
+    width: 100%;
+    height: 42px;
+}
+
+.header .return{
+    float: left;
+    height: 22px;
+    padding: 0 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.header .return img{
+    display: block;
+    height: 22px;
+}
+
+
+.header .choose {
+    float: right;
+    margin-top: 8px;
+}
+
+.header .choose .label {
+    position: relative;
+    float: left;
+    padding-left: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    line-height: 26px;
+    color: #6c6c6c;
+    cursor: pointer;
+}
+
+.header .choose .label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 14px;
+    height: 14px;
+    margin-top: -7px;
+    border:1px solid #000;
+    border-radius: 50%;
+}
+
+.header .choose .label.on:before {
+    border: none;
+    background-image: url(../images/radio_input.png);
+    background-repeat: no-repeat;
+    background-size: 14px auto;
+    background-position: 0 0;
+}
+
+.header .choose .label .radio_input {
+    display: none;
+}
+
+/* 顶部 - 结束 */
+
+/* 底部 - 开始 */
+.footer{
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+
+}
+
+.footer .a1{
+    float: left;
+    width: 33.333333%;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    color: #636262;
+}
+
+.footer .a1.on{
+    color:#d75d5c;
+}
+
+.footer .a1 span{
+    line-height: 1em;
+    padding-left: 24px;
+    background-repeat: no-repeat;
+    background-size: auto 18px;
+    background-position: left center;
+}
+
+.footer .home span{
+    background-image: url(../images/bottom_home.png);
+}
+
+.footer .cart span{
+    background-image: url(../images/bottom_cart.png);
+}
+
+.footer .wode span{
+    background-image: url(../images/bottom_wode.png);
+}
+
+.footer .home.on span{
+    background-image: url(../images/bottom_home_on.png);
+}
+
+.footer .cart.on span{
+    background-image: url(../images/bottom_cart_on.png);
+}
+
+.footer .wode.on span{
+    background-image: url(../images/bottom_wode_on.png);
+}
+
+
+
+/* 底部 - 结束 */
+
+/* 多出引用 - 更改慎重 */

@@ -1,0 +1,16 @@
+{
+  "background": "\/uploads\/bg\/2.jpg",
+  "background_thumbnail": "\/uploads\/bg\/2_thumb.jpg",
+  "ratio": "6",
+  "positions": [
+    {
+      "id": "2554",
+      "x": "960",
+      "y": "85",
+      "width": "502",
+      "height": "604",
+      "image": "",
+      "thumbnail": ""
+    }
+  ]
+}
